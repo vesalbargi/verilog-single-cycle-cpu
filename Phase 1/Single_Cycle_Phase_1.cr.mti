@@ -1,0 +1,57 @@
+{C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/Add.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/Add.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Add
+
+Top level modules:
+	Add
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_ALU
+
+Top level modules:
+	test_ALU
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_PC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_PC.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_PC
+
+Top level modules:
+	test_PC
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_InstructionMemory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_InstructionMemory.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_InstructionMemory
+
+Top level modules:
+	test_InstructionMemory
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/PC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/PC.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/InstructionMemory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/InstructionMemory.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_Add.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_Add.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_Add
+
+Top level modules:
+	test_Add
+
+} {} {}}

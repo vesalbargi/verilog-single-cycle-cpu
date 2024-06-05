@@ -1,0 +1,232 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vesal/Documents/Modelsim/Assignment 4
+T_opt
+!s110 1717359147
+VC?>>C2^^45=:Nfb2l7z5>1
+04 22 4 work test_InstructionMemory fast 0
+=1-5c260a493ffb-665cd22b-4a-74c
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1717358869
+VkAHUbf9@c>a3HohC8Aamn0
+04 8 4 work test_Add fast 0
+=1-5c260a493ffb-665cd114-39d-364c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1717358957
+Vm2DVS7DXa7FJ[Dh7G9>BN1
+04 8 4 work test_ALU fast 0
+=1-5c260a493ffb-665cd16d-1c9-838
+R1
+R2
+n@_opt2
+R3
+R0
+vAdd
+Z4 !s110 1717358851
+!i10b 1
+!s100 Lk34M9F2Ue0j9AJ0cA2hV3
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1giNjFGDS@TJ44O:YF@Wl0
+Z6 dC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1
+w1717356736
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/Add.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/Add.v
+!i122 44
+L0 1 7
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1717358851.000000
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/Add.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/Add.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@add
+vALU
+R4
+!i10b 1
+!s100 IN_znQFFj_klTc=dYjgM13
+R5
+IAUkHoN840Q7F^SnFHgKH]2
+R6
+w1717358692
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/ALU.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/ALU.v
+!i122 42
+L0 1 19
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/ALU.v|
+!i113 0
+R10
+R2
+n@a@l@u
+vInstructionMemory
+Z11 !s110 1717358852
+!i10b 1
+!s100 ;9@`bUg>WWXPo_JRUL@UJ0
+R5
+Io@WoF7NoiWBlaGXcdGFHl2
+R6
+w1717358751
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/InstructionMemory.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/InstructionMemory.v
+!i122 46
+L0 1 34
+R7
+R8
+r1
+!s85 0
+31
+Z12 !s108 1717358852.000000
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/InstructionMemory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/InstructionMemory.v|
+!i113 0
+R10
+R2
+n@instruction@memory
+vPC
+Z13 !s110 1717358850
+!i10b 1
+!s100 K^A8jJ99N8<9:W0Alf4WI2
+R5
+IFf?C9:PbecW3O4@QlhVRU1
+R6
+w1717358587
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/PC.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/PC.v
+!i122 40
+L0 1 12
+R7
+R8
+r1
+!s85 0
+31
+Z14 !s108 1717358850.000000
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/PC.v|
+!i113 0
+R10
+R2
+n@p@c
+vtest_Add
+R4
+!i10b 1
+!s100 J=4l_83<c3j75@J5=:Kn22
+R5
+IiMAjOjek@:lZ[HSG[6V:k2
+R6
+w1717357803
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_Add.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_Add.v
+!i122 45
+L0 3 26
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_Add.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_Add.v|
+!i113 0
+R10
+R2
+ntest_@add
+vtest_ALU
+R4
+!i10b 1
+!s100 gL9<c]KE2I66`?T0<Wc^72
+R5
+If=@B2_^g_dhC`d[BHd3:a2
+R6
+w1717358701
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_ALU.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_ALU.v
+!i122 43
+L0 3 36
+R7
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_ALU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_ALU.v|
+!i113 0
+R10
+R2
+ntest_@a@l@u
+vtest_InstructionMemory
+R11
+!i10b 1
+!s100 iR:0^2^2]8ZML34bR3FDe3
+R5
+IEoK2[Qk8j1cec16jM`:Tk1
+R6
+w1717358816
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_InstructionMemory.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_InstructionMemory.v
+!i122 47
+L0 3 33
+R7
+R8
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_InstructionMemory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_InstructionMemory.v|
+!i113 0
+R10
+R2
+ntest_@instruction@memory
+vtest_PC
+R13
+!i10b 1
+!s100 fU6e>d^7jzMY]anV]3X_B2
+R5
+I4cUM<EAKS1HmJGnEZSn8I1
+R6
+w1717358180
+8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_PC.v
+FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_PC.v
+!i122 41
+L0 3 32
+R7
+R8
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_PC.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1/test_PC.v|
+!i113 0
+R10
+R2
+ntest_@p@c
