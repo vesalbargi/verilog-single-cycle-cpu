@@ -5,6 +5,7 @@ module test_DataMemory;
   reg [31:0] WriteData;
   reg MemWrite;
   reg MemRead;
+  reg Startin;
   wire [31:0] ReadData;
   reg clk;
 
@@ -13,6 +14,7 @@ module test_DataMemory;
       .WriteData(WriteData),
       .MemWrite(MemWrite),
       .MemRead(MemRead),
+      .Startin(Startin),
       .ReadData(ReadData),
       .clk(clk)
   );
@@ -20,6 +22,7 @@ module test_DataMemory;
   always #10 clk = ~clk;
 
   initial begin
+    Startin = 1;
     clk = 1;
     Address   = 0;
     WriteData = 0;
@@ -30,6 +33,7 @@ module test_DataMemory;
     WriteData = 32'hAAAA_AAAA;
     MemWrite  = 1;
     #10;
+    Startin = 0;
     MemWrite = 0;
     Address  = 32'h0000_0004;
     MemRead  = 1;
