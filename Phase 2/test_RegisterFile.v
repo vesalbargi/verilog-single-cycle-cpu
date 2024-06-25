@@ -8,6 +8,7 @@ module test_RegisterFile;
   reg RegWrite;
   wire [31:0] Data1;
   wire [31:0] Data2;
+  reg startin;
   reg clk;
   reg [4:0] regNo;
   wire [31:0] val;
@@ -20,6 +21,7 @@ module test_RegisterFile;
       .RegWrite(RegWrite),
       .Data1(Data1),
       .Data2(Data2),
+      .startin(startin),
       .clk(clk),
       .regNo(regNo),
       .val(val)
@@ -29,16 +31,18 @@ module test_RegisterFile;
 
   initial begin
     clk = 1;
+    startin = 1;
     RegWrite = 0;
     Read1 = 0;
     Read2 = 0;
     WriteReg = 0;
     WriteData = 0;
     #10;
+    startin   = 0;
     WriteReg  = 5'd1;
     WriteData = 32'hAAAA_AAAA;
     RegWrite  = 1;
-    #10;
+    #20;
     RegWrite = 0;
     Read1 = 5'd1;
     #10;

@@ -4,10 +4,11 @@ module RegisterFile (
     input [4:0] WriteReg,
     input [31:0] WriteData,
     input RegWrite,
-    output [31:0] Data1,
-    output [31:0] Data2,
+    input startin,
     input clk,
     input [4:0] regNo,
+    output [31:0] Data1,
+    output [31:0] Data2,
     output [31:0] val
 );
   reg [31:0] registers[31:0];
@@ -17,8 +18,13 @@ module RegisterFile (
   assign val   = registers[regNo];
 
   always @(posedge clk) begin
+    if (startin) begin
+      registers[0] <= 32'b0;
+    end
     if (RegWrite) begin
-      registers[WriteReg] <= WriteData;
+      if (WriteReg != 0) begin
+        registers[WriteReg] <= WriteData;
+      end
     end
   end
 endmodule

@@ -32,7 +32,7 @@ module test_DataMemory;
     Address   = 32'h0000_0004;
     WriteData = 32'hAAAA_AAAA;
     MemWrite  = 1;
-    #10;
+    #20;
     Startin  = 0;
     MemWrite = 0;
     Address  = 32'h0000_0004;

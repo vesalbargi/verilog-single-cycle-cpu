@@ -10,367 +10,367 @@ z2
 cModel Technology
 Z0 dC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 1
 T_opt
-!s110 1718361669
-Vg6eI5NlkUV=_2]d@IYM6C2
-04 15 4 work test_ShiftLeft2 fast 0
-=1-5c260a493ffb-666c1e44-2a1-2a78
+!s110 1719318138
+VgQ7<6?VHB0EEkBRHQhnDD3
+04 17 4 work test_RegisterFile fast 0
+=1-5c260a493ffb-667ab67a-15b-1ca0
 Z1 o-quiet -auto_acc_if_foreign -work work +acc
 Z2 tCvgOpt 0
 n@_opt
 Z3 OL;O;2020.4;71
-R0
 T_opt1
-!s110 1718361739
-V;[VnY^NV^`[hWn>1F<^L`0
-04 15 4 work test_SignExtend fast 0
-=1-5c260a493ffb-666c1e8a-2ae-17e8
+!s110 1719316513
+VQ:ibN]n6`X@72oIYEgzc12
+04 15 4 work test_ShiftLeft2 fast 0
+=1-5c260a493ffb-667ab020-290-2128
 R1
 R2
 n@_opt1
 R3
+R0
 T_opt2
-!s110 1718361632
-VYPP_SlI62cd_hiX0CI@cP0
-04 16 4 work test_Shift26to28 fast 0
-=1-5c260a493ffb-666c1e20-21-1784
+!s110 1719316553
+VQoZlJGJ0]84D6ck;;H_FD2
+04 15 4 work test_SignExtend fast 0
+=1-5c260a493ffb-667ab049-57-1c38
 R1
 R2
 n@_opt2
 R3
 R0
 vDataMemory
-Z4 !s110 1717529447
+!s110 1719314184
 !i10b 1
-!s100 :@@c<O<EU>PLDlh?e_jI71
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
-ImEJT`dYfK]H`D8]968gRg1
-Z6 dC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2
-w1717519119
+!s100 nQC515Yde90[gn[RUfk<80
+Z4 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IfC[ezI]^:=<Y`Fc`9[a7b0
+Z5 dC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2
+w1719314028
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/DataMemory.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/DataMemory.v
-!i122 12
-L0 1 18
-Z7 VDg1SIo80bB@j0V0VzS_@n1
-Z8 OL;L;2020.4;71
+!i122 28
+L0 1 25
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z9 !s108 1717529447.000000
+!s108 1719314184.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/DataMemory.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/DataMemory.v|
 !i113 0
-Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R2
 n@data@memory
 vMux32
-Z11 !s110 1717529445
+Z9 !s110 1719310626
 !i10b 1
 !s100 DRVK<oIM;XcgT6JcQ_B[m2
-R5
+R4
 INGJhGD=`HCXz33fXjJ1[C3
-R6
+R5
 w1717524622
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux32.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux32.v
-!i122 2
-Z12 L0 1 8
+!i122 16
+Z10 L0 1 8
+R6
 R7
-R8
 r1
 !s85 0
 31
-Z13 !s108 1717529445.000000
+Z11 !s108 1719310626.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux32.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux32.v|
 !i113 0
-R10
+R8
 R2
 n@mux32
 vMux5
-R11
+R9
 !i10b 1
 !s100 >?z?X4hGP2LS;[HdVHRSd2
-R5
+R4
 IC8ji::<Oa5Xli`3zoNP8N1
-R6
-w1717524519
+R5
+w1718614199
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux5.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux5.v
-!i122 0
-R12
+!i122 14
+R10
+R6
 R7
-R8
 r1
 !s85 0
 31
-R13
+!s108 1719310625.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux5.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux5.v|
 !i113 0
-R10
+R8
 R2
 n@mux5
 vRegisterFile
-Z14 !s110 1717529446
+Z12 !s110 1719317895
 !i10b 1
-!s100 jzjW7_<6VhnB9_^aX0MN?1
+!s100 3G8GPUa3]7bX^Q_P>E51K1
+R4
+IX`9Kf8:VAl`Wfo_H6Bgi12
 R5
-I@S=H83Jg3o8Kll_=7Pj0a1
-R6
-w1717519077
+w1719317373
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/RegisterFile.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/RegisterFile.v
-!i122 10
-L0 1 24
+!i122 31
+L0 1 30
+R6
 R7
-R8
 r1
 !s85 0
 31
-Z15 !s108 1717529446.000000
+Z13 !s108 1719317894.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/RegisterFile.v|
 !i113 0
-R10
+R8
 R2
 n@register@file
 vShift26to28
-R11
+R9
 !i10b 1
 !s100 jY_OfS5h^`FVTzcT0JGj`3
-R5
+R4
 IcSzo4l?kPP8TP=e7J;aV=0
-R6
+R5
 w1717519019
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Shift26to28.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Shift26to28.v
-!i122 4
-Z16 L0 1 6
+!i122 18
+Z14 L0 1 6
+R6
 R7
-R8
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Shift26to28.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Shift26to28.v|
 !i113 0
-R10
+R8
 R2
 n@shift26to28
 vShiftLeft2
-R14
+R9
 !i10b 1
 !s100 i<?>eRiDK]5QM3S7H9<an2
-R5
+R4
 IGDBWn;lWo=igko[9_N]aL0
-R6
+R5
 w1717519035
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/ShiftLeft2.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/ShiftLeft2.v
-!i122 6
-R16
+!i122 20
+R14
+R6
 R7
-R8
 r1
 !s85 0
 31
-R15
+R11
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/ShiftLeft2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/ShiftLeft2.v|
 !i113 0
-R10
+R8
 R2
 n@shift@left2
 vSignExtend
-R14
+!s110 1719317894
 !i10b 1
 !s100 [33fMQ4Lb3^?f0;06RYL90
-R5
+R4
 IhS:K>AQGF5hfhB0;ja:b[3
-R6
-w1717519049
+R5
+w1719316331
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/SignExtend.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/SignExtend.v
-!i122 8
-R16
+!i122 30
+R14
+R6
 R7
-R8
 r1
 !s85 0
 31
-R15
+R13
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/SignExtend.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/SignExtend.v|
 !i113 0
-R10
+R8
 R2
 n@sign@extend
 vtest_DataMemory
-R4
+R12
 !i10b 1
-!s100 2LU18FFWdSg6o4SRaO8zD1
+!s100 e]bTZ_?KEWQ2Rm^zdR^B90
+R4
+I2d9kIO9JfSamS<=bW<a?N2
 R5
-Ii4nXZSUNa5dSI@37lcYPN0
-R6
-w1717525190
+w1719315317
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_DataMemory.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_DataMemory.v
-!i122 13
-L0 3 36
+!i122 33
+L0 3 40
+R6
 R7
-R8
 r1
 !s85 0
 31
-R9
+!s108 1719317895.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_DataMemory.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_DataMemory.v|
 !i113 0
-R10
+R8
 R2
 ntest_@data@memory
 vtest_Mux32
-R11
+R9
 !i10b 1
 !s100 AdY`OhhzN^TAaPB7UAR]Z2
-R5
+R4
 ImzfPW:=5P?F;_>0j0XYNO2
-R6
+R5
 w1717525019
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux32.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux32.v
-!i122 3
-Z17 L0 3 32
+!i122 17
+Z15 L0 3 32
+R6
 R7
-R8
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux32.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux32.v|
 !i113 0
-R10
+R8
 R2
 ntest_@mux32
 vtest_Mux5
-R11
+R9
 !i10b 1
 !s100 XjSoO^EM@9;HGzX[?17m30
-R5
+R4
 I6>JTXRdPF19Jc;H=6o7mh1
-R6
+R5
 w1717525012
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux5.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux5.v
-!i122 1
-R17
+!i122 15
+R15
+R6
 R7
-R8
 r1
 !s85 0
 31
-R13
+R11
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux5.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Mux5.v|
 !i113 0
-R10
+R8
 R2
 ntest_@mux5
 vtest_RegisterFile
-R14
+!s110 1719318119
 !i10b 1
-!s100 M?Sj:OeZY2Tn[Udb`AKE=1
+!s100 ZVfKM6ZNa1ZkHYQ?TQ_a=2
+R4
+I<=U0@DXA:`M3TJggQSNSK0
 R5
-I>XNgIDoN;<7WX6^l4A1ZW0
-R6
-w1717525027
+w1719318108
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_RegisterFile.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_RegisterFile.v
-!i122 11
-L0 3 53
+!i122 34
+L0 3 57
+R6
 R7
-R8
 r1
 !s85 0
 31
-R15
+!s108 1719318119.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_RegisterFile.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_RegisterFile.v|
 !i113 0
-R10
+R8
 R2
 ntest_@register@file
 vtest_Shift26to28
-R14
+R9
 !i10b 1
 !s100 jKV?K<>9d8>=gOn;;G4i51
-R5
+R4
 IHmThX8D]aOSVS2:LAGbl^2
-R6
+R5
 w1717525035
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Shift26to28.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Shift26to28.v
-!i122 5
-Z18 L0 3 16
+!i122 19
+Z16 L0 3 16
+R6
 R7
-R8
 r1
 !s85 0
 31
-R15
+R11
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Shift26to28.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_Shift26to28.v|
 !i113 0
-R10
+R8
 R2
 ntest_@shift26to28
 vtest_ShiftLeft2
-R14
+Z17 !s110 1719310627
 !i10b 1
 !s100 ?Z;_2G3NiA;ca2D:RaziB1
-R5
+R4
 I5Jj:;?E9KO@1?keA=31:D0
-R6
+R5
 w1717525041
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_ShiftLeft2.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_ShiftLeft2.v
-!i122 7
-R18
+!i122 21
+R16
+R6
 R7
-R8
 r1
 !s85 0
 31
-R15
+Z18 !s108 1719310627.000000
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_ShiftLeft2.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_ShiftLeft2.v|
 !i113 0
-R10
+R8
 R2
 ntest_@shift@left2
 vtest_SignExtend
-R14
+R17
 !i10b 1
 !s100 52n7P>D9cHNaYI[c9G;Nm0
-R5
+R4
 I[BIWL8zMQfF:8XXPF9Q4^3
-R6
+R5
 w1717525159
 8C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_SignExtend.v
 FC:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_SignExtend.v
-!i122 9
-R18
+!i122 23
+R16
+R6
 R7
-R8
 r1
 !s85 0
 31
-R15
+R18
 !s107 C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_SignExtend.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_SignExtend.v|
 !i113 0
-R10
+R8
 R2
 ntest_@sign@extend
