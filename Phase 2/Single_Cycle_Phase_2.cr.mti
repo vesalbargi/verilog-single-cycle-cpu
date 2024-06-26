@@ -82,6 +82,13 @@ Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 Top level modules:
 	Shift26to28
 
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_RegisterFile.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/test_RegisterFile.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_RegisterFile
+
+Top level modules:
+	test_RegisterFile
+
 } {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux5.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 2/Mux5.v}
 Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
 -- Compiling module Mux5
