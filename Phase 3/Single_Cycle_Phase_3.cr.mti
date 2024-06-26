@@ -1,1 +1,120 @@
+{C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/test_Control.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/test_Control.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_Control
 
+Top level modules:
+	test_Control
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/SignExtend.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/SignExtend.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Add.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Add.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Add
+
+Top level modules:
+	Add
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/test_ALUControl.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/test_ALUControl.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_ALUControl
+
+Top level modules:
+	test_ALUControl
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/ShiftLeft2.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/ShiftLeft2.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ShiftLeft2
+
+Top level modules:
+	ShiftLeft2
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/ALUControl.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/ALUControl.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/InstructionMemory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/InstructionMemory.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module InstructionMemory
+
+Top level modules:
+	InstructionMemory
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/PC.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/PC.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/DataMemory.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/DataMemory.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/test_Main.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/test_Main.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module test_Main
+
+Top level modules:
+	test_Main
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Main.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Main.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Main
+
+Top level modules:
+	Main
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Mux32.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Mux32.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Mux32
+
+Top level modules:
+	Mux32
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Mux5.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Mux5.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Mux5
+
+Top level modules:
+	Mux5
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Control.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Control.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/ALU.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/ALU.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Shift26to28.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/Shift26to28.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Shift26to28
+
+Top level modules:
+	Shift26to28
+
+} {} {}} {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/RegisterFile.v} {1 {vlog -work work -vopt -stats=none {C:/Users/Vesal/Documents/Modelsim/Single Cycle/Phase 3/RegisterFile.v}
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}}
