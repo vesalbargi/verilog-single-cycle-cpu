@@ -34,6 +34,4 @@ module test_ALUControl;
     Func  = 6'b101010;
     #10;
   end
-
 endmodule
-

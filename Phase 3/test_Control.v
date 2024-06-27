@@ -38,4 +38,3 @@ module test_Control;
     #10;
   end
 endmodule
-

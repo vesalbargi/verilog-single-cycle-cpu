@@ -22,4 +22,3 @@ module ALUControl (
     endcase
   end
 endmodule
-
