@@ -20,28 +20,9 @@ This is a ModelSim project that implements a single cycle CPU using Verilog.
 
 ## Phase 3
 
-### Control Unit:
-
-The Control module is the brain of the single-cycle MIPS CPU. It generates all the control signals that regulate the datapath based on the current instruction. The module takes the instruction31_26 (opcode) bits as input and outputs the following control signals:
-- RegDst: Determines which register file register to write the result to (R-type instructions).
-- Jump: Indicates a jump instruction.
-- Branch: Indicates a branch instruction.
-- MemRead: Enables reading from data memory.
-- MemToReg: Selects the source for the register file write data (memory or ALU).
-- ALUOp: Specifies the type of ALU operation to perform.
-- MemWrite: Enables writing to data memory.
-- ALUSrc: Selects the second ALU operand (register or immediate).
-- RegWrite: Enables writing to the register file.
-
-### ALU Control:
-
-The ALUControl module is responsible for determining the specific operation the Arithmetic Logic Unit (ALU) should perform for the current instruction. It takes two inputs:
-- Func: The function field from the instruction, which specifies the ALU operation for R-type instructions.
-- ALUOp: A control signal from the Control Unit that indicates the type of instruction (e.g., R-type, load, store, branch).
-
-### Main:
-
-The Main module is the top-level module that instantiates the various datapath components (PC, instruction memory, register file, ALU, data memory, etc.) and the Control Unit. It connects the control signals from the Control Unit to the appropriate datapath elements.
+- Control Unit: The Control module is the brain of the single-cycle MIPS CPU. It generates all the control signals that regulate the datapath based on the current instruction.
+- ALU Control: The ALUControl module is responsible for determining the specific operation the ALU should perform for the current instruction.
+- Main: The Main module is the top-level module that instantiates the various datapath components (PC, instruction memory, register file, ALU, data memory, etc.) and the Control Unit. It connects the control signals from the Control Unit to the appropriate datapath elements.
 
 ## Datapath
 
