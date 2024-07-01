@@ -7,6 +7,6 @@ module PC (
 
   always @(posedge clk) begin
     if (startin) out <= 32'b0;
-    out <= in;
+    else out <= in;
   end
 endmodule
