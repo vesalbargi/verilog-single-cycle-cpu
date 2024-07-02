@@ -26,7 +26,7 @@ This is a ModelSim project that implements a single cycle CPU using Verilog.
 
 ## Datapath
 
-![Datapath](https://i.imgur.com/37y9b01.png)
+![Datapath](https://i.imgur.com/9MTRa5a.png)
 
 ## Requirements
 
