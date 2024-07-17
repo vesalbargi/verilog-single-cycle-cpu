@@ -1,7 +1,6 @@
+# Single-Cycle CPU Project
 
-# Single Cycle CPU Project
-
-This is a ModelSim project that implements a single cycle CPU using Verilog.
+This is a ModelSim project that implements a MIPS single-cycle CPU using Verilog.
 
 ## Phase 1
 
@@ -26,13 +25,45 @@ This is a ModelSim project that implements a single cycle CPU using Verilog.
 
 ## Datapath
 
-![Datapath](https://i.imgur.com/9MTRa5a.png)
+![Datapath](https://i.imgur.com/rW6Smwh.jpeg)
 
 ## Requirements
 
 - ModelSim
 - Verilog compiler
 - A basic understanding of Verilog and digital logic
+
+## Running the Project
+
+Clone the project
+
+```bash
+git clone https://github.com/VesalBargi/verilog-single-cycle.git
+```
+
+Open ModelSim and load the project
+
+```bash
+ModelSim> project open Single_Cycle_Phase_3.mpf
+```
+
+Compile all Verilog files
+
+```bash
+ModelSim> vlog *.v
+```
+
+Run the simulation
+
+```bash
+ModelSim> vsim test_Main
+ModelSim> run -all
+```
+
+## Testing
+
+- Testbenches are provided for each pipeline stage.
+- Ensure all testbenches pass before running the full CPU simulation.
 
 ## License
 
