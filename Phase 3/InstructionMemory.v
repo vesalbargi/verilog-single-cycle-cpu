@@ -31,35 +31,3 @@ module InstructionMemory (
   end
   assign instruction = {memory[address], memory[address+1], memory[address+2], memory[address+3]};
 endmodule
-
-/*
-lw $t0, 0($s0)
-lw $t1, 4($s0)
-add $t0, $t0, $t1
-
-lw $t1, 8($s0)
-add $t0, $t0, $t1
-
-lw $t1, 12($s0)
-add $t0, $t0, $t1
-
-lw $t1, 16($s0)
-add $t0, $t0, $t1
-
-lw $t1, 20($s0)
-add $t0, $t0, $t1
-
-lw $t1, 24($s0)
-add $t0, $t0, $t1
-
-lw $t1, 28($s0)
-add $t0, $t0, $t1
-
-lw $t1, 32($s0)
-add $t0, $t0, $t1
-
-lw $t1, 36($s0)
-add $t0, $t0, $t1
-
-sw $t0, 40($s0)
-*/

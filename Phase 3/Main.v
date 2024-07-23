@@ -4,20 +4,17 @@ module Main (
     input [4:0] regNo,
     output [31:0] val
 );
-  wire [31:0] instruction;
+  wire [31:0] instr;
   wire [31:0] pc_out, pc_next, pc_plus_4, branch_target;
   wire [31:0] sign_ext_imm, sign_ext_shifted;
-  wire [31:0] reg_data1, reg_data2, alu_operand2, write_data;
+  wire [31:0] reg_data1, reg_data2, alu_input2, write_data;
+  wire [31:0] alu_result, mem_data;
+  wire [31:0] branch_mux_out, jump_address;
+  wire [27:0] jump_address_shifted;
   wire [ 4:0] write_reg;
   wire [ 3:0] alu_ctrl;
-  wire [31:0] alu_out;
-  wire [31:0] mem_read_data;
-  wire reg_dst, branch, mem_read, mem_to_reg, mem_write, alu_src, reg_write, zero;
-  wire [1:0] alu_op;
-  wire [31:0] branch_mux_out;
-  wire [27:0] jump_address_shifted;
-  wire [31:0] jump_address;
-  wire jump;
+  wire [ 1:0] alu_op;
+  wire reg_dst, jump, branch, mem_read, mem_to_reg, mem_write, alu_src, reg_write, zero;
 
   PC pc (
       .in(pc_next),
@@ -29,7 +26,7 @@ module Main (
   InstructionMemory instruction_memory (
       .address(pc_out),
       .startin(startin),
-      .instruction(instruction)
+      .instruction(instr)
   );
 
   Add pc_adder (
@@ -39,7 +36,7 @@ module Main (
   );
 
   SignExtend sign_extend (
-      .in(instruction[15:0]),
+      .in(instr[15:0]),
       .result(sign_ext_imm)
   );
 
@@ -55,8 +52,8 @@ module Main (
   );
 
   RegisterFile register_file (
-      .Read1(instruction[25:21]),
-      .Read2(instruction[20:16]),
+      .Read1(instr[25:21]),
+      .Read2(instr[20:16]),
       .WriteReg(write_reg),
       .WriteData(write_data),
       .RegWrite(reg_write),
@@ -69,31 +66,31 @@ module Main (
   );
 
   ALUControl alu_control (
-      .Func(instruction[5:0]),
+      .Func(instr[5:0]),
       .Aluop(alu_op),
       .Alucontrol(alu_ctrl)
   );
 
   ALU alu (
       .in1(reg_data1),
-      .in2(alu_operand2),
+      .in2(alu_input2),
       .operation(alu_ctrl),
-      .out(alu_out),
+      .out(alu_result),
       .zero(zero)
   );
 
   DataMemory data_memory (
-      .Address(alu_out),
+      .Address(alu_result),
       .WriteData(reg_data2),
       .MemWrite(mem_write),
       .MemRead(mem_read),
       .Startin(startin),
       .clk(clk),
-      .ReadData(mem_read_data)
+      .ReadData(mem_data)
   );
 
   Control control_unit (
-      .instruction31_26(instruction[31:26]),
+      .instruction31_26(instr[31:26]),
       .regdst(reg_dst),
       .jump(jump),
       .branch(branch),
@@ -106,8 +103,8 @@ module Main (
   );
 
   Mux5 reg_dst_mux (
-      .input1(instruction[20:16]),
-      .input2(instruction[15:11]),
+      .input1(instr[20:16]),
+      .input2(instr[15:11]),
       .op(reg_dst),
       .out(write_reg)
   );
@@ -116,18 +113,18 @@ module Main (
       .input1(reg_data2),
       .input2(sign_ext_imm),
       .op(alu_src),
-      .out(alu_operand2)
+      .out(alu_input2)
   );
 
   Mux32 mem_to_reg_mux (
-      .input1(alu_out),
-      .input2(mem_read_data),
+      .input1(alu_result),
+      .input2(mem_data),
       .op(mem_to_reg),
       .out(write_data)
   );
 
   Shift26to28 shift_jump (
-      .in (instruction[25:0]),
+      .in (instr[25:0]),
       .out(jump_address_shifted)
   );
 
