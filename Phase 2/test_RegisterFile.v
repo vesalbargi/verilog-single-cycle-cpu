@@ -6,11 +6,11 @@ module test_RegisterFile;
   reg [4:0] WriteReg;
   reg [31:0] WriteData;
   reg RegWrite;
-  wire [31:0] Data1;
-  wire [31:0] Data2;
   reg startin;
   reg clk;
   reg [4:0] regNo;
+  wire [31:0] Data1;
+  wire [31:0] Data2;
   wire [31:0] val;
 
   RegisterFile u1 (
@@ -19,11 +19,11 @@ module test_RegisterFile;
       .WriteReg(WriteReg),
       .WriteData(WriteData),
       .RegWrite(RegWrite),
-      .Data1(Data1),
-      .Data2(Data2),
       .startin(startin),
       .clk(clk),
       .regNo(regNo),
+      .Data1(Data1),
+      .Data2(Data2),
       .val(val)
   );
 

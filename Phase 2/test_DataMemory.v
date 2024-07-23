@@ -6,8 +6,8 @@ module test_DataMemory;
   reg MemWrite;
   reg MemRead;
   reg Startin;
-  wire [31:0] ReadData;
   reg clk;
+  wire [31:0] ReadData;
 
   DataMemory u1 (
       .Address(Address),
@@ -15,8 +15,8 @@ module test_DataMemory;
       .MemWrite(MemWrite),
       .MemRead(MemRead),
       .Startin(Startin),
-      .ReadData(ReadData),
-      .clk(clk)
+      .clk(clk),
+      .ReadData(ReadData)
   );
 
   always #10 clk = ~clk;
@@ -40,4 +40,3 @@ module test_DataMemory;
     #10;
   end
 endmodule
-
