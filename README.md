@@ -62,7 +62,7 @@ ModelSim> run -all
 
 ## Testing
 
-- Testbenches are provided for each pipeline stage.
+- Testbenches are provided for each module.
 - Ensure all testbenches pass before running the full CPU simulation.
 
 ## License
