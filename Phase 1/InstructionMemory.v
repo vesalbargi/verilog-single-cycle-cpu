@@ -3,7 +3,7 @@ module InstructionMemory (
     input startin,
     output [31:0] instruction
 );
-  reg [7:0] memory[0:79];
+  reg [7:0] memory[79:0];
 
   always @(*) begin
     if (startin) begin
