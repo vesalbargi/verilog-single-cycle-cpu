@@ -38,7 +38,7 @@ This is a ModelSim project that implements a MIPS single-cycle CPU using Verilog
 Clone the project
 
 ```bash
-git clone https://github.com/VesalBargi/verilog-single-cycle.git
+git clone https://github.com/vesalbargi/verilog-single-cycle-cpu.git
 ```
 
 Open ModelSim and load the project
